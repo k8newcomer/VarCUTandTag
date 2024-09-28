@@ -1,0 +1,2 @@
+java -Xmx4g -jar /pi/thomas.fazzio-umw/Sarah/picard-tools-2.5.0/picard.jar SortSam INPUT=k4_realign.bam OUTPUT=k4_realign_Picard.bam VALIDATION_STRINGENCY=LENIENT TMP_DIR=/tmp SORT_ORDER=coordinate
+java -Xmx4g -jar /pi/thomas.fazzio-umw/Sarah/picard-tools-2.5.0/picard.jar MarkDuplicates INPUT=k4_realign_Picard.bam OUTPUT=k4_realign_Picard2.bam VALIDATION_STRINGENCY=LENIENT TMP_DIR=/tmp METRICS_FILE=Pk4_dup.txt REMOVE_DUPLICATES=true
