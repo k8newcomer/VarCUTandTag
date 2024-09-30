@@ -6,4 +6,4 @@ configureStrelkaSomaticWorkflow.py \
     --callRegions 100X.bed \
     --runDir Somatic
 
-Somatic/runWorkflow.py -m local -j 20
+Somatic/runWorkflow.py 
